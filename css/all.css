@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  overflow-x: hidden;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  /*消除底部留白(效果較display-block好)*/
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.primary {
+  color: #FFDF65 !important;
+}
+
+.bg-primary {
+  background-color: #FFDF65 !important;
+}
+
+.border-primary {
+  border-color: #FFDF65 !important;
+}
+
+.light-gray {
+  color: #858377;
+}
+
+.bg-light-gray {
+  background-color: #858377 !important;
+}
+
+.gray {
+  color: #636057;
+}
+
+.dark-gray {
+  color: #494846;
+}
+
+.top-gray {
+  color: #373A3C;
+}
+
+.light-danger {
+  color: #FF785E;
+}
+
+.bg-light-pink {
+  background-color: #E8E8DB !important;
+}
+
+.square {
+  max-width: 36px;
+  height: 36px;
+}
+
+.circle {
+  max-width: 60px;
+  height: 60px;
+}
+
+.circle-lg {
+  max-width: 100px;
+  height: 100px;
+}
+
+.bg-hover:hover {
+  background-color: #FF785E !important;
+}
+
+.border-hover:hover {
+  border-bottom: 2px solid orange !important;
+}
+
+.nav .active {
+  border-bottom: 3px solid orange !important;
+  font-weight: bold !important;
+}
+
+.nav-link:hover {
+  color: #FF785E !important;
+}
+
+.bgCoverCenter {
+  background-size: cover;
+  background-position: center center;
+}
+
+.mb-8 {
+  margin-bottom: 64px;
+}
+
+.lh-15 {
+  line-height: 1.5;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
+.titleMenu-logo {
+  background-image: url("https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg");
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.projectIntro p {
+  line-height: 2;
+}

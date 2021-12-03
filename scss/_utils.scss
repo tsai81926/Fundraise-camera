@@ -1,0 +1,59 @@
+//images
+.square {
+    max-width: 36px;
+    height: 36px;
+}
+
+.circle {
+    max-width: 60px;
+    height: 60px;
+}
+
+.circle-lg {
+    max-width: 100px;
+    height: 100px;
+}
+
+//Hover
+.bg-hover:hover{
+    background-color: #FF785E  !important;
+}
+
+.border-hover:hover{
+    border-bottom:2px solid orange !important;
+}
+
+//Active
+.nav .active {
+    border-bottom:3px solid orange !important;
+    font-weight: bold !important;
+    //加上.nav 才不會多一條 (Why)
+}
+
+
+//nav-link
+.nav-link:hover {
+    color: #FF785E !important;
+}
+
+
+//backgroundImg
+.bgCoverCenter{
+    background-size: cover;
+    background-position: center center;
+}
+
+//margin
+.mb-8 {
+    margin-bottom: 64px;
+}
+
+
+//line-height
+.lh-15{
+    line-height: 1.5;
+}
+
+.lh-2 {
+    line-height: 2;
+}
