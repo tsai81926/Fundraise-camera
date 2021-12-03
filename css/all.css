@@ -132,6 +132,11 @@ img {
   border-bottom: 2px solid orange !important;
 }
 
+.text-hover:hover {
+  -webkit-text-decoration: 3px underline #FF785E !important;
+          text-decoration: 3px underline #FF785E !important;
+}
+
 .nav .active {
   border-bottom: 3px solid orange !important;
   font-weight: bold !important;
